@@ -11861,6 +11861,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
+      "Microsoft.EntityFrameworkCore >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -11871,11 +11872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\C# Projects\\Web\\Library Management System\\Library-Management-System\\Library Management System\\Library Management System\\Library Management System.csproj",
+      "projectUniqueName": "I:\\Web Projects\\Dotnet\\Library-Management-System\\Library Management System\\Library Management System\\Library Management System.csproj",
       "projectName": "Library Management System",
-      "projectPath": "I:\\C# Projects\\Web\\Library Management System\\Library-Management-System\\Library Management System\\Library Management System\\Library Management System.csproj",
+      "projectPath": "I:\\Web Projects\\Dotnet\\Library-Management-System\\Library Management System\\Library Management System\\Library Management System.csproj",
       "packagesPath": "C:\\Users\\darkb\\.nuget\\packages\\",
-      "outputPath": "I:\\C# Projects\\Web\\Library Management System\\Library-Management-System\\Library Management System\\Library Management System\\obj\\",
+      "outputPath": "I:\\Web Projects\\Dotnet\\Library-Management-System\\Library Management System\\Library Management System\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11915,6 +11916,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.2, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

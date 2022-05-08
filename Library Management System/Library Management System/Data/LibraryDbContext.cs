@@ -1,0 +1,22 @@
+﻿using Library_Management_System.Data.Model;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Library_Management_System.Data
+{
+    public class LibraryDbContext : DbContext 
+    {
+        public DbSet<Customer> Customer { get; set; }
+        public DbSet<Author> Authors { get; set; }
+        public DbSet<Book> Books { get; set; }
+
+        public LibraryDbContext(DbContextOptions<LibraryDbContext> options) : base(options)
+        {
+
+        }
+       
+    }
+}

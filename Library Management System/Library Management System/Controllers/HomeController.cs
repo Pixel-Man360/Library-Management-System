@@ -10,10 +10,8 @@ namespace Library_Management_System.Controllers
 {
     public class HomeController : Controller
     {
-        [Route("LibraryManagementSystemHome/index")]
         public IActionResult Index()
         {
-           // throw new Exception();
             return View();
         }
 
